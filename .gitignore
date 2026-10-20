@@ -1,0 +1,28 @@
+# Compiled C++ executables
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
+
+# Debugging files
+*.pdb
+*.ilk
+*.dSYM/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
