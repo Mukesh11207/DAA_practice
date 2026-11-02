@@ -40,7 +40,7 @@ void unionSets(int parent[],int rank[],int u,int v){
 void kruskal(int graph[V][V]){
     vector<Edge> edges;
     for(int i = 0;i < V;i++){
-        for(int j = 0;j < V;j++){
+        for(int j = i + 1;j < V;j++){
             if(graph[i][j] != 0){
                 edges.push_back({i,j,graph[i][j]});
             }
