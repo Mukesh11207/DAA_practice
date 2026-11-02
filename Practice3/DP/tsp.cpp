@@ -13,7 +13,7 @@ int tsp(int cost[MAX][MAX],int mask,int pos,int n){
     if(dp[mask][pos] != -1){
         return dp[mask][pos];
     }
-    int ans = INF;
+    int ans = INF;//imp
     for(int city = 0;city < n;city++){
         if((mask & (1 << city)) == 0){
             int newCost = cost[pos][city] + 
